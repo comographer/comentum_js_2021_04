@@ -21,4 +21,6 @@ function init() {
 
 init();
 
+// currently not using due to using unsplash embed API
+
 // RNG in js can be done with module Math.random()
