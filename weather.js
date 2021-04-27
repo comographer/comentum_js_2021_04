@@ -5,16 +5,16 @@ const COORDS = "coords";
 
 function getWeather(lat, lng) {
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&lang=hr&appid=${API_KEY}`
   )
     .then(function (response) {
       return response.json();
     })
     .then(function (json) {
-      const temperature = json.main.temp;
+      const temperature = parseInt(json.main.temp, 10);
       const place = json.name;
       console.log(temperature);
-      weather.innerText = `${temperature}℃ @ ${place}`;
+      weather.innerText = `${temperature} ℃ @ ${place}`;
     });
 }
 

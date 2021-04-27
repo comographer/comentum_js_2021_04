@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: whitesmoke;
 }
 
 .form,
@@ -67,8 +68,31 @@ body {
   font-weight: 600;
 }
 
+.js-toDoForm {
+  margin: 20px 0;
+  width: 80%;
+}
+
+.js-toDoForm > input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+  text-align: center;
+}
+
 .js-toDoList {
   align-self: flex-start;
+}
+
+li {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -80,9 +104,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding: 20px 20px;
+  padding: 70px;
 }
 
 .js-weather {
@@ -90,7 +114,17 @@ button {
   top: 10px;
   right: 20px;
   font-size: 25px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.background-img__credit {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   padding: 5px 5px;
 }
