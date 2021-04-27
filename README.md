@@ -13,5 +13,7 @@ Tech used in this repo will be HTML, CSS & Vanila JS
 
 **To-Do**
 
-- [ ] Design with CSS
-- [ ] Changes images to use unsplash API
+- [x] Design with CSS
+- [x] Changes images to use unsplash API
+
+**Result can be viewed [Here 🔗](https://comographer.github.io/comentum_js_2021_04/)**
