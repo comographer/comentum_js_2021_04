@@ -73,12 +73,17 @@ input::-webkit-input-placeholder {
 }
 
 .js-toDoList {
-  align-self: flex-start;
+  align-self: center;
+  width: 400px;
+  padding: 0 20px;
 }
 
 li {
   font-size: 30px;
   margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
