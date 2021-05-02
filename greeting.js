@@ -6,9 +6,6 @@ const form = document.querySelector(".js-form"),
 const USER_LS = "currentUser",
   SHOWING_CN = "showing";
 
-const date = new Date();
-const time = date.getHours();
-
 function saveName(text) {
   localStorage.setItem(USER_LS, text);
 }
@@ -28,7 +25,15 @@ function askForName() {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text}`;
+  const date = new Date();
+  const time = date.getHours();
+  if (time >= 4 && time < 12) {
+    greeting.innerText = `Good morning ${text}`;
+  } else if (time >= 12 && time < 20) {
+    greeting.innerText = `Good afternoon ${text}`;
+  } else {
+    greeting.innerText = `Good evening ${text}`;
+  }
 }
 
 function loadName() {

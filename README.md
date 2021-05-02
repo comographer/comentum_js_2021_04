@@ -8,6 +8,7 @@ Tech used in this repo will be HTML, CSS & Vanila JS
 
 - [x] Clock
 - [x] Remember user
+- [x] Greeting depending on time
 - [x] To-do list
 - [x] Weather
 - [x] Quote
