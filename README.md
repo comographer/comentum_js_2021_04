@@ -10,10 +10,6 @@ Tech used in this repo will be HTML, CSS & Vanila JS
 - [x] Remember user
 - [x] To-do list
 - [x] Weather
-
-**To-Do**
-
-- [x] Design with CSS
-- [x] Changes images to use unsplash API
+- [x] Quote
 
 **Result can be viewed [Here 🔗](https://comographer.github.io/comentum_js_2021_04/)**

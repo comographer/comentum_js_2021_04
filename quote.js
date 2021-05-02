@@ -15,13 +15,13 @@ const quotes = [
 ];
 
 function writeQuote(quoteNumber) {
-  const newQuote = quotes[quoteNumber + 1];
-  console.log(newQuote);
+  const newQuote = quotes[quoteNumber];
   quote.innerText = newQuote;
 }
 
 function genRandom() {
   const number = Math.floor(Math.random() * QUOTE_NUMBER);
+  console.log(number);
   return number;
 }
 
