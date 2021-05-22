@@ -1,8 +1,7 @@
 # comentum_js_2021_04
 
-This is clone practice repo of Momentum, a Chrome extension web app.
-
-Tech used in this repo will be HTML, CSS & Vanila JS
+> Clone project of Momentum Chrome extension.
+> You can view the final result **[_here_](https://comographer.github.io/comentum_js_2021_04/)**.
 
 **Features**
 
@@ -13,4 +12,20 @@ Tech used in this repo will be HTML, CSS & Vanila JS
 - [x] Weather
 - [x] Quote
 
-**Result can be viewed [Here 🔗](https://comographer.github.io/comentum_js_2021_04/)**
+## Screenshots
+
+![Example screenshot](#)
+
+<!-- To be updated -->
+
+## Project Status
+
+Project is: _Done_
+
+## Acknowledgements
+
+Give credit here.
+
+- This project was inspired by...
+- This project was based on
+- Many thanks to...👍 [@serranoarevalo](https://github.com/serranoarevalo).
