@@ -40,7 +40,7 @@ Project is: _Done_
 Give credit here.
 
 - This project was inspired by...
-- This project was based on
+- This project was based on [Nomadcoders : JS for Beginners](https://nomadcoders.co/javascript-for-beginners/).
 - Many thanks to...👍 [@serranoarevalo](https://github.com/serranoarevalo).
 
 ## Contact
